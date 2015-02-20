@@ -137,7 +137,6 @@ public class KeyHandler implements DeviceKeyHandler {
             case GESTURE_V_SCANCODE:
                 ensureTorchManager();
                 mGestureWakeLock.acquire(GESTURE_WAKELOCK_DURATION);
-                mTorchManager.toggleTorch();
                 break;
             case GESTURE_LTR_SCANCODE:
                 dispatchMediaKeyWithWakeLockToMediaSession(KeyEvent.KEYCODE_MEDIA_PREVIOUS);
