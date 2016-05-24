@@ -71,7 +71,7 @@ public final class KernelControl {
      * As well ugly but needed for now.
      */
     public static boolean isArrowUpSupported() {
-        return new File(GESTURE_SILENT_VIB_SOUND).exists();
+        return new File(GESTURE_FLASHLIGHT).exists();
     }
 
     /**
